@@ -1,0 +1,66 @@
+.testH {
+    border-bottom: 1px solid red; 
+}
+.taro-img img{
+    display: block;
+    border: none;
+    width: 100%;
+}
+.headTab{
+    height: 88px;
+    display: flex;
+}
+.headTab .headTabL{
+    flex: 1;
+    text-align: center;
+}
+.headTabL .taro-img{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+   
+}
+
+.headTabL .taro-text{
+    display: inline-block;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
