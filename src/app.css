@@ -1,0 +1,15 @@
+.header{
+    height: 98px;
+    border-bottom: 2px solid #dddddd;
+    text-align: center;
+    color: #3e3e3e;
+    line-height: 98px;
+}
+.taro-img{
+    display: inline;
+    width: auto;
+    height: auto;
+}
+*{
+    color: #3c3c3c3c;
+}

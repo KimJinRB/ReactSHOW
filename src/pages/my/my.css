@@ -1,0 +1,100 @@
+.head{
+    height: 400px;
+}
+.headTop{
+    height: 166px;
+    padding: 38px 0 0 30px;
+}
+
+.headTop img{
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+}
+.my .infoGo{
+    display: inline-block;
+    width: 18px;
+    height: 36px;
+    float: right;
+    margin: 40px 30px 0px 0px;
+
+}
+
+.infoGo img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.nameBox{
+    display: inline-block;
+    width: 50%;
+    height: 120px;
+}
+.nameBox span{
+    display: block;
+}
+.name{
+    font-size:32px;
+    color: #3c3c3c;
+    line-height: 45px;
+    margin-top: 8px;
+}
+.phone{
+    font-size: 24px;
+    color: #909090;
+    line-height: 33px;
+}
+
+.useHeader{
+    float: left;
+}
+.headBottom{
+    height: 196px;
+    display: flex;
+}
+.headList{
+    flex: 1;
+    font-size: 24px;
+    color: #7e7e7e;
+    line-height: 33px;
+    text-align: center;
+}
+.headList span{
+    display: block;
+}
+.headList img{
+    display: block;
+    width: 48px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

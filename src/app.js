@@ -7,9 +7,10 @@ class App extends Component {
 
   config = {
     pages: [
+      'pages/my/my',
       'pages/register/register',
       'pages/index/index',
-      'pages/my/my',
+      
       'pages/news/news',
       'pages/recharge/recharge',
       'pages/newsDetail/newsDetail',
@@ -29,34 +30,34 @@ class App extends Component {
     ],
     "debug": true,
     "tabBar": {
-      "backgroundColor": "#44ff77",
+      "backgroundColor": "#ffffff",
       "borderStyle": "#466577",
-      "color": "#90A8B7",
-      "selectedColor": "#ffffff",
+      "color": "#7E7E7E",
+      "selectedColor": "#14B3FF",
       "list": [
         {
           "pagePath": "pages/index/index",
           "text": "首页",
-          "iconPath": "resource/tabBar/tabIndex.png",
-          "selectedIconPath": "resource/tabBar/tabIndexC.png"
+          "iconPath": "resource/tabBar/btn_bot1_export.png",
+          "selectedIconPath": "resource/tabBar/btn_bot1_over.png"
         },
         {
           "pagePath": "pages/recharge/recharge",
-          "text": "充值",
-          "iconPath": "resource/tabBar/tabRecharge.png",
-          "selectedIconPath": "resource/tabBar/tabRechargeC.png"
+          "text": "发现",
+          "iconPath": "resource/tabBar/btn_bot2_export.png",
+          "selectedIconPath": "resource/tabBar/btn_bot2_over.png"
         },
         {
           "pagePath": "pages/news/news",
           "text": "消息",
-          "iconPath": "resource/tabBar/tabNews.png",
-          "selectedIconPath": "resource/tabBar/tabNewsC.png"
+          "iconPath": "resource/tabBar/btn_bot3_export.png",
+          "selectedIconPath": "resource/tabBar/btn_bot3_over.png"
         },
         {
           "pagePath": "pages/my/my",
           "text": "我的",
-          "iconPath": "resource/tabBar/tabMy.png",
-          "selectedIconPath": "resource/tabBar/tabMyC.png"
+          "iconPath": "resource/tabBar/btn_bot4_export.png",
+          "selectedIconPath": "resource/tabBar/btn_bot4_over.png"
         }
       ]
     },
