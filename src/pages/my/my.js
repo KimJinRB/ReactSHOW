@@ -6,6 +6,12 @@ import btnNext from '../../resource/my/btn_next.png'
 import icon_grzx_t1 from '../../resource/my/icon_grzx_t1.png'
 import icon_grzx_t2 from '../../resource/my/icon_grzx_t2.png'
 import icon_grzx_t3 from '../../resource/my/icon_grzx_t3.png'
+import btn_list1 from '../../resource/my/btn_grzx_list1.png'
+import btn_list2 from '../../resource/my/btn_grzx_list2.png'
+import btn_list3 from '../../resource/my/btn_grzx_list3.png'
+import btn_list4 from '../../resource/my/btn_grzx_list4.png'
+import btn_list5 from '../../resource/my/btn_grzx_list5.png'
+import btn_list6 from '../../resource/my/btn_grzx_list6.png'
 
 export default class My extends Component {
 
@@ -53,6 +59,50 @@ export default class My extends Component {
               <Image src={icon_grzx_t3}></Image>
               <Text>积分</Text>
               <Text>123.23</Text>
+            </View>
+          </View>
+        </View>
+        <View className='listBox'>
+          <View className='list'>
+            <Image src={btn_list1} className='iconImg'></Image>
+            <View className='lists'>
+              <Text className='listName'>我的订单</Text>
+              <Image src={btnNext} className='infoGo'></Image>
+            </View>
+          </View>
+          <View className='list'>
+            <Image src={btn_list2} className='iconImg'></Image>
+            <View className='lists'>
+              <Text className='listName'>我的充值</Text>
+              <Image src={btnNext} className='infoGo'></Image>
+              </View>
+          </View>
+          <View className='list'>
+            <Image src={btn_list3} className='iconImg'></Image>
+            <View className='lists'>
+              <Text className='listName'>我的收藏</Text>
+              <Image src={btnNext} className='infoGo'></Image>
+            </View>
+          </View>
+          <View className='list'>
+            <Image src={btn_list4} className='iconImg'></Image>
+            <View className='lists'>
+              <Text className='listName'>我的加购</Text>
+              <Image src={btnNext} className='infoGo'></Image>
+            </View>
+          </View>
+          <View className='list'>
+            <Image src={btn_list5} className='iconImg'></Image>
+            <View className='lists'>
+              <Text className='listName'>我的邀请</Text>
+              <Image src={btnNext} className='infoGo'></Image>
+            </View>
+          </View>
+          <View className='list'>
+            <Image src={btn_list6} className='iconImg'></Image>
+            <View className='lists'>
+              <Text className='listName'>设置</Text>
+              <Image src={btnNext} className='infoGo'></Image>
             </View>
           </View>
         </View>

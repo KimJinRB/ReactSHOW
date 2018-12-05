@@ -1,0 +1,108 @@
+.news{
+    background-color: #eeeeee;
+}
+.head{
+    height: 204px;
+    padding-top: 36px;
+    display: flex;
+}
+.head .taro-img{
+    width: 88px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+}
+.head .tab{
+    flex: 1;
+}
+.head .newsTitle{
+    text-align: center;
+    display: block;
+}
+
+.news img{
+    display: inline-block;
+    height: 88px;
+    width: 88px;
+}
+
+.newsTitle{
+    font-size: 30px;
+    line-height: 42px;
+    color: #3e3e3e;
+}
+
+.content{
+    background-color: #ffffff;
+    padding: 0 30px;
+}
+.title{
+    margin-top: 30px;
+    font-size: 30px;
+    color: #3e3e3e;
+    line-height: 30px;
+    padding: 40px 0 15px 30px;
+    background-color: #ffffff;
+}
+.news .list{
+    height: 130px;
+    padding: 0px;
+    border-bottom: 1px solid #f4f4f4;
+    padding-top: 22px;
+    display: flex;
+}
+.newsBox{
+   flex: 1;
+   margin-left: 40px;
+}
+.list .newsTitle{
+    float: left;
+}
+.newsTime{
+    font-size: 22px;
+    line-height: 22px;
+    color: #909090;
+    float: right;
+}
+.newsDetail{
+    font-size: 24px;
+    color: #7e7e7e;
+    line-height: 24px;
+    clear: both;
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

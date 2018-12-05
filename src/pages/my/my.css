@@ -1,5 +1,9 @@
+.my{
+    background-color: #eeeeee;
+}
 .head{
     height: 400px;
+    background-color: #ffffff;
 }
 .headTop{
     height: 166px;
@@ -13,7 +17,7 @@
 }
 .my .infoGo{
     display: inline-block;
-    width: 18px;
+    width: 36px;
     height: 36px;
     float: right;
     margin: 40px 30px 0px 0px;
@@ -68,32 +72,35 @@
     height: 40px;
     margin: 0 auto;
 }
+.listBox{
+    margin-top: 30px;
+    background-color: #ffffff;
+}
+.list{
+    height: 64px;
+    padding: 28px 30px;
+    display: flex;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.list .iconImg{
+    display: inline-block;
+    height: 64px;
+    width: 64px;
+}
+.iconImg{
+    width: 64px;
+    margin-right: 30px;
+}
+.lists{
+    flex: 1;
+    height: 64px;
+    font-size: 28px;
+    color: #3c3c3c;
+    line-height: 64px;
+}
+.lists .infoGo{
+    margin: 8px 0px 0px 0px;
+}
 
 
 
