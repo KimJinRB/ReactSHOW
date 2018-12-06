@@ -1,11 +1,12 @@
 import Taro, { Component } from '@tarojs/taro'
-import { View, Text, Swiper, SwiperItem, Image } from '@tarojs/components'
+import { View, Text, Swiper, SwiperItem, Image, Input} from '@tarojs/components'
 import './index.css'
-import u790 from '../../resource/index/u790.png'
+import banner from '../../resource/index/banner.png'
 import activate from '../../resource/index/activate.png'
 import goods from '../../resource/index/goods.png'
 import invite from '../../resource/index/invite.png'
 import interal from '../../resource/index/interal.png'
+import search from '../../resource/index/search.png'
 
 
 export default class Index extends Component {
@@ -41,7 +42,10 @@ export default class Index extends Component {
   render () {
     return (
       <View className='index'>
-        <Text>首页</Text>
+        <View class='head'>
+          <Image src={search}></Image>
+          <Input type='search' placeholder='搜一搜'></Input>
+        </View>
         {/* 轮播开始 */}
         <Swiper
         className='testH'
@@ -54,17 +58,17 @@ export default class Index extends Component {
         autoplay>
         <SwiperItem>
           <View className='demo-text-1' data-id='1' onclick={this.bannerDetail}>
-            <Image src={u790}></Image>
+            <Image src={banner}></Image>
           </View>
         </SwiperItem>
         <SwiperItem >
           <View className='demo-text-2' data-id='2' onclick={this.bannerDetail}>
-            <Image src={u790}></Image>
+            <Image src={banner}></Image>
           </View>
         </SwiperItem>
         <SwiperItem >
           <View className='demo-text-3' data-id='3' onclick={this.bannerDetail}>
-            <Image src={u790}></Image>
+            <Image src={banner}></Image>
           </View>
         </SwiperItem>
       </Swiper>

@@ -4,6 +4,7 @@
     text-align: center;
     color: #3e3e3e;
     line-height: 98px;
+    background-color: #ffffff;
 }
 .taro-img{
     display: inline;
@@ -11,5 +12,5 @@
     height: auto;
 }
 *{
-    color: #3c3c3c3c;
+    color: #3c3c3c;
 }

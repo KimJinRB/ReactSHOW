@@ -7,10 +7,9 @@ class App extends Component {
 
   config = {
     pages: [
+      'pages/index/index',
       'pages/my/my',
       'pages/register/register',
-      'pages/index/index',
-      
       'pages/news/news',
       'pages/recharge/recharge',
       'pages/newsDetail/newsDetail',
@@ -33,6 +32,7 @@ class App extends Component {
       "backgroundColor": "#ffffff",
       "borderStyle": "#466577",
       "color": "#7E7E7E",
+      "border-top":"1px solid #eeeeee",
       "selectedColor": "#14B3FF",
       "list": [
         {
