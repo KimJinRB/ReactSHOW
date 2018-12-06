@@ -1,38 +1,83 @@
-.testH {
-    border-bottom: 1px solid red; 
+.index{
+    background-color: #eeeeee;
+    min-height: 100%;
 }
-.headTabL img{
+.index .head{
+    height: 64px;
+    padding: 17px 30px;
+    display: flex;
+    background-color: #ffffff;
+}
+.index .head .taro-img{
+    height: 64px;
+}
+.index .head img{
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+    margin: 14px 0px 14px 21px;
+}
+.index .head input{
+    flex: 1;
+    height: 64px;
+    line-height: 64px;
+    color: #b1b1b1;
+    font-size: 28px;
+}
+
+.index .headTabL img{
     display: block;
     border: none;
     width: 100%;
 }
-.headTab{
-    height: 88px;
+.index .headTab{
+    height: 140px;
     display: flex;
+    padding:50px 0px;
+    background-color: #ffffff;
 }
-.headTab .headTabL{
+.index .headTab .headTabL{
     flex: 1;
     text-align: center;
 }
-.headTabL .taro-img{
+.index .headTabL .taro-img{
     display: inline-block;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     margin: 0 auto;
-   
 }
 
-.headTabL .taro-text{
+.index .headTabL .taro-text{
     display: inline-block;
     width: 100%;
-    font-size: 16px;
+    font-size: 28px;
     text-align: center;
+    color: #7e7e7e;
+    position: relative;
+    top: -22px;
 }
 
+.index .swiper__container{
+    height: 380px;
+}
+.index .swiper__wrapper{
+    height: 380px!important;
+}
+.index .swiper__item{
+    height: 380px!important;
+}
+.index .newsBox{
+    height: 42px;
+    padding: 18px 30px;
+}
 
-
-
-
+.index .newsBox .title{
+    display: inline-block;
+    font-size: 24px;
+    line-height: 42px;
+    color: #3e3e3e;
+    float: left;
+}
 
 
 

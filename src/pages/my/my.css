@@ -1,16 +1,16 @@
 .my{
     background-color: #eeeeee;
 }
-.head{
+.my .head{
     height: 400px;
     background-color: #ffffff;
 }
-.headTop{
+.my .headTop{
     height: 166px;
     padding: 38px 0 0 30px;
 }
 
-.headTop img{
+.my .headTop img{
     display: inline-block;
     width: 120px;
     height: 120px;
@@ -24,81 +24,83 @@
 
 }
 
-.infoGo img{
+.my .infoGo img{
     display: inline-block;
     width: 100%;
     height: 100%;
 }
-.nameBox{
+.my .nameBox{
     display: inline-block;
     width: 50%;
     height: 120px;
 }
-.nameBox span{
+.my .nameBox span{
     display: block;
 }
-.name{
+.my .name{
     font-size:32px;
     color: #3c3c3c;
     line-height: 45px;
     margin-top: 8px;
 }
-.phone{
+.my .phone{
     font-size: 24px;
     color: #909090;
     line-height: 33px;
 }
 
-.useHeader{
+.my useHeader{
     float: left;
 }
-.headBottom{
-    height: 196px;
+.my .headBottom{
+    height: 163px;
     display: flex;
+    padding-top: 33px;
 }
-.headList{
+.my .headList{
     flex: 1;
-    font-size: 24px;
+    font-size: 28px;
     color: #7e7e7e;
-    line-height: 33px;
+    line-height: 44px;
     text-align: center;
 }
-.headList span{
+.my .headList span{
     display: block;
 }
-.headList img{
+.my .headList img{
     display: block;
     width: 48px;
-    height: 40px;
+    height: 48px;
     margin: 0 auto;
+    margin-bottom: 12px;
 }
-.listBox{
+.my .listBox{
     margin-top: 30px;
     background-color: #ffffff;
 }
-.list{
+.my .list{
     height: 64px;
     padding: 28px 30px;
     display: flex;
 }
 
-.list .iconImg{
+.my .list .iconImg{
     display: inline-block;
     height: 64px;
     width: 64px;
 }
-.iconImg{
+.my .iconImg{
     width: 64px;
     margin-right: 30px;
 }
-.lists{
+.my .lists{
     flex: 1;
     height: 64px;
     font-size: 28px;
     color: #3c3c3c;
     line-height: 64px;
 }
-.lists .infoGo{
+.my .lists .infoGo{
     margin: 8px 0px 0px 0px;
 }
 

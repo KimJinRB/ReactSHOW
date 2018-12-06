@@ -1,21 +1,22 @@
 .news{
     background-color: #eeeeee;
 }
-.head{
+.news .head{
     height: 204px;
     padding-top: 36px;
     display: flex;
+    background-color: #ffffff;
 }
-.head .taro-img{
+.news .head .taro-img{
     width: 88px;
     margin: 0 auto;
     display: block;
     margin-bottom: 20px;
 }
-.head .tab{
+.news .head .tab{
     flex: 1;
 }
-.head .newsTitle{
+.news .head .newsTitle{
     text-align: center;
     display: block;
 }
@@ -26,17 +27,17 @@
     width: 88px;
 }
 
-.newsTitle{
+.news .newsTitle{
     font-size: 30px;
     line-height: 42px;
     color: #3e3e3e;
 }
 
-.content{
+.news .content{
     background-color: #ffffff;
     padding: 0 30px;
 }
-.title{
+.news .title{
     margin-top: 30px;
     font-size: 30px;
     color: #3e3e3e;
@@ -45,26 +46,26 @@
     background-color: #ffffff;
 }
 .news .list{
-    height: 130px;
+    height: 131px;
     padding: 0px;
     border-bottom: 1px solid #f4f4f4;
     padding-top: 22px;
     display: flex;
 }
-.newsBox{
+.news .newsBox{
    flex: 1;
    margin-left: 40px;
 }
-.list .newsTitle{
+.news .list .newsTitle{
     float: left;
 }
-.newsTime{
+.news .newsTime{
     font-size: 22px;
     line-height: 22px;
     color: #909090;
     float: right;
 }
-.newsDetail{
+.news .newsDetail{
     font-size: 24px;
     color: #7e7e7e;
     line-height: 24px;
