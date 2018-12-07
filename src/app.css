@@ -1,3 +1,6 @@
+.taro_page{
+    background-color: #eeeeee;
+}
 .header{
     height: 98px;
     border-bottom: 2px solid #dddddd;
@@ -11,9 +14,66 @@
     width: auto;
     height: auto;
 }
-*{
-    color: #3c3c3c;
+view,image,text,button,input,label{
+    color: #3e3e3e;
 }
 .taro_page{
     min-height: 100%;
+}
+.clearBoth{
+    clear: both;
+}
+
+/* 商品列表样式 */
+
+.index .content{
+    background-color: #ffffff;
+}
+.index .activityBox{
+    padding: 20px 30px;
+    background-color: #ffffff;
+    display: flex;
+}
+.index .activityBox img{
+    display: inline-block;
+    height: 200px;
+    flex: 1;
+}
+.index .activityBox .taro-img:first-child{
+    margin-right: 10px;
+}
+
+.content .goodsHead{
+    height: 94px;
+    padding: 0px 30px;
+    font-size: 30px;
+    line-height: 94px;
+}
+.content .goodsHead .goodsMore{
+    float: right;
+}
+.goodsList{
+    padding: 0px 30px;
+}
+.goodsList .subList{
+    display: inline-block;
+    font-size: 28px;
+    height: 484px;
+    width: 330px;
+}
+.goodsList .subList:nth-child(2n+1){
+    /* float: right; */
+    margin-right: 30px;
+}
+
+.goodsList .subList .goodsBanner{
+    display: block;
+    height: 330px;
+    width: 330px;
+    margin-bottom: 25px;
+}
+
+.goodsList .subList .goodsPrice{
+    margin-top: 18px;
+    color: #14B3FF;
 }

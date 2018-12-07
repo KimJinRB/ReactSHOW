@@ -73,37 +73,16 @@
     margin-top: 60px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*postcss-pxtransform weapp eject enable*/
+.news image{
+    display: inline-block;
+    height: 88px;
+    width: 88px;
+}
+.news .head image{
+    display: block;
+    margin: 0 auto;
+}
+/*postcss-pxtransform weapp eject disable*/
 
 

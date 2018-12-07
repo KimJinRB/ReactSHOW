@@ -1,11 +1,11 @@
 import Taro, { Component } from '@tarojs/taro'
 import { View, Text } from '@tarojs/components'
-import './recharge.css'
+import './orderList.css'
 
-export default class Recharge extends Component {
+export default class GoodsList extends Component {
 
   config = {
-    navigationBarTitleText: '发现'
+    navigationBarTitleText: '订单列表'
   }
 
   componentWillMount () { }
@@ -22,7 +22,7 @@ export default class Recharge extends Component {
     return (
       <View className='index'>
         <Text>Hello world!</Text>
-        <View style='font-size:60px;color:red'>发现页面!</View>
+        <Text>撒的发顺丰!</Text>
       </View>
     )
   }

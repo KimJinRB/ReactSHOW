@@ -9,6 +9,9 @@ import interal from '../../resource/index/interal.png'
 import search from '../../resource/index/search.png'
 import goods1 from '../../resource/index/goods1.png'
 import goods2 from '../../resource/index/goods2.png'
+import tuiguang1 from '../../resource/index/img_tuiguang1.png'
+import tuiguang2 from '../../resource/index/img_tuiguang2.png'
+import img_ad from '../../resource/index/img_ad.png'
 
 
 export default class Index extends Component {
@@ -35,10 +38,7 @@ export default class Index extends Component {
   componentDidHide () { }
 
   bannerDetail = e => {
-    console.log(e.currentTarget.dataset.id)
-    Taro.navigateTo({
-      url:'/pages/activity/activity?id=' + e.currentTarget.dataset.id
-    })
+    
  }
 
   render () {
@@ -50,30 +50,32 @@ export default class Index extends Component {
           <Input type='search' placeholder='搜一搜' placeholderStyle=''></Input>
         </View>
         {/* 轮播开始 */}
-        <Swiper
-          className='testH'
-          indicatorColor='#999'
-          indicatorActiveColor='#333'
-          autoplay='true'
-          circular='true'
-          duration='200'
-          >
-          <SwiperItem>
-            <View className='demo-text-1' data-id='1' onclick={this.bannerDetail}>
-              <Image src={banner}></Image>
-            </View>
-          </SwiperItem>
-          <SwiperItem >
-            <View className='demo-text-2' data-id='2' onclick={this.bannerDetail}>
-              <Image src={banner}></Image>
-            </View>
-          </SwiperItem>
-          <SwiperItem >
-            <View className='demo-text-3' data-id='3' onclick={this.bannerDetail}>
-              <Image src={banner}></Image>
-            </View>
-          </SwiperItem>
-        </Swiper>
+        <View className='banner'>
+          <Swiper 
+            className='testH'
+            indicatorColor='#999'
+            indicatorActiveColor='#333'
+            autoplay='true'
+            circular='true'
+            duration='200'
+            >
+            <SwiperItem>
+              <View className='demo-text-1' data-id='1' onclick={this.bannerDetail}>
+                <Image src={banner}></Image>
+              </View>
+            </SwiperItem>
+            <SwiperItem >
+              <View className='demo-text-2' data-id='2' onclick={this.bannerDetail}>
+                <Image src={banner}></Image>
+              </View>
+            </SwiperItem>
+            <SwiperItem >
+              <View className='demo-text-3' data-id='3' onclick={this.bannerDetail}>
+                <Image src={banner}></Image>
+              </View>
+            </SwiperItem>
+          </Swiper>
+        </View>
         {/* 轮播结束 */}
         <View className='headTab'>
           <View className='headTabL'>
@@ -96,12 +98,32 @@ export default class Index extends Component {
         {/* 消息提示 */}
         <View className='newsBox'>
           <Text className='title'>消息提示</Text>
-
+          <Swiper
+            className='test-h'
+            indicatorColor='#999'
+            indicatorActiveColor='#333'
+            vertical
+            circular
+            autoplay>
+            <SwiperItem>
+              <View className='demo-text-1'>1</View>
+            </SwiperItem>
+            <SwiperItem>
+              <View className='demo-text-2'>2</View>
+            </SwiperItem>
+            <SwiperItem>
+              <View className='demo-text-3'>3</View>
+            </SwiperItem>
+          </Swiper>
+          <Text className='newsTime'>1小时前</Text>
+          <Text className='newsMore'>更多</Text>
         </View>
         {/* 活动 */}
         <View className='activityBox'>
-
+          <Image src={tuiguang1}></Image>
+          <Image src={tuiguang2}></Image>
         </View>
+        {/* 商品列表 */}
         <View className='content'>
           {/* 超值推荐 */}
           <View className='recommend'>
@@ -121,6 +143,7 @@ export default class Index extends Component {
                 <View className='goodsPrice'>￥ 998</View>
               </View>
             </View>
+            <Image src={img_ad} style='margin-top:20px;display:block;'></Image>
           </View>
           {/* 新品上线 */}
           <View className='newGoods'>
@@ -139,6 +162,17 @@ export default class Index extends Component {
                 <View className='goodsName'>智能手表</View>
                 <View className='goodsPrice'>￥ 998</View>
               </View>
+              <View className='subList'>
+                <Image src={goods1} className='goodsBanner'></Image>
+                <View className='goodsName'>智能手表</View>
+                <View className='goodsPrice'>￥ 998</View>
+              </View>
+              <View className='subList'>
+                <Image src={goods2} className='goodsBanner'></Image>
+                <View className='goodsName'>智能手表</View>
+                <View className='goodsPrice'>￥ 998</View>
+              </View>
+              <View className='clearBoth'></View>
             </View>
           </View>
           </View>

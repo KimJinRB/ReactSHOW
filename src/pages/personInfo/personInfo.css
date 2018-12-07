@@ -1,37 +1,58 @@
-.setup{
+.person{
     background-color: #eeeeee;
 }
-.setup .tabList{
+.person .tabList .heade{
+    height: 88px;
+    padding: 16px 30px;
+}
+.person .tabList .heade label{
+    line-height: 88px;
+}
+.person .tabList .heade .btnNext{
+    margin-top: 22px;
+}
+.person .heade .headPortrait{
+    display: inline-block;
+    height: 88px;
+    width: 88px;
+    border-radius: 44px;
+    float: right;
+}
+
+.person  .tabList{
     margin-top: 20px;
     padding-bottom: 150px;
 }
-.setup .list{
+.person  .list{
     height: 40px;
     padding: 40px 30px;
-    display: flex;
     background-color: #ffffff;
     border-bottom: 1px solid #e7e7e7;
 }
 
-.setup .list label{
+.person  .list label{
     display: inline-block;
     height: 40px;
     font-size: 28px;
     line-height: 40px;
     width: 150px;
 }
-.setup .list span{
+.person  .list span{
     display: inline-block;
-    flex: 1;
+    width: 420px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
     font-size: 28px;
     color: #7e7e7e;
     line-height: 40px;
     text-align: right;
+    float: right;
 }
-.setup .bankID{
+.person  .bankID{
     margin-bottom: 20px;
 }
-.setup .list img{
+.person  .list .btnNext{
     display: inline-block;
     width: 36px;
     height: 36px;
@@ -39,29 +60,19 @@
     margin-left:30px; 
 }
 
-.setup .unlogin{
-    position: fixed;
-    bottom: 0px;
-    height: 120px;
-    font-size: 28px;
-    color: #7e7e7e;
-    line-height: 120px;
-    text-align: center;
-    border: none;
-}
-
-
 /*postcss-pxtransform weapp eject enable*/
-.setup .list text{
+.person  .list text{
     display: inline-block;
-    flex: 1;
+    width: 420px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
     font-size: 28px;
     color: #7e7e7e;
     line-height: 40px;
     text-align: right;
+    float: right;
 }
-
-
 
 /*postcss-pxtransform weapp eject disable*/
 

@@ -1,0 +1,118 @@
+.rechargeR{
+    background-color: #eeeeee;
+}
+.rechargeR .tabList{
+    margin-bottom: 20px;
+}
+.rechargeR .tabList .list{
+    height: 60px;
+    padding: 30px 30px;
+    display: flex;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.rechargeR .tabList .list label{
+    display: inline-block;
+    height: 60px;
+    font-size: 28px;
+    line-height: 60px;
+    width: 150px;
+}
+.rechargeR .tabList .list span{
+    display: inline-block;
+    flex: 1;
+    font-size: 28px;
+    color: #7e7e7e;
+    line-height: 60px;
+    text-align: center;
+}
+.rechargeR .bankID{
+    margin-bottom: 20px;
+}
+.rechargeR .tabList .list img{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    float: right;
+    margin-left:30px; 
+}
+
+.rechargeR .unlogin{
+    position: fixed;
+    bottom: 0px;
+    height: 120px;
+    font-size: 28px;
+    color: #7e7e7e;
+    line-height: 120px;
+    text-align: center;
+    border: none;
+}
+.rechargeR .title{
+    height: 88px;
+    background-color: #ffffff;
+    line-height: 88px;
+    padding-left: 30px;
+    font-size: 32px;
+    color: #3c3c3c;
+}
+.rechargeR .tabList .list .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin-right: 37px;
+}
+.rechargeR .tabList .list .icon img{
+    width: 100%;
+    height: 100%;
+}
+.rechargeR .moreList{
+    display: flex;
+    height: 172px;
+    padding-top: 28px;
+    background-color: #ffffff;
+}
+.rechargeR .moreList .list{
+    flex: 1;
+    padding: 0px;
+    height: 100%;
+    display: block;
+}
+.rechargeR .moreList .list .icon{
+    display: block;
+    height: 60px;
+    width: 100%;
+    margin-bottom: 33px;
+}
+.rechargeR .moreList .list .icon img{
+    display: block;
+    height: 60px;
+    width: 60px;
+    margin: 0 auto;
+}
+.rechargeR .moreList .list .value{
+    display: block;
+    font-size: 30px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    color: #3e3e3e;
+}
+
+
+/*postcss-pxtransform weapp eject enable*/
+.rechargeR .list text{
+    display: inline-block;
+    flex: 1;
+    font-size: 28px;
+    color: #7e7e7e;
+    line-height: 40px;
+    text-align: right;
+}
+
+
+
+/*postcss-pxtransform weapp eject disable*/
+
+

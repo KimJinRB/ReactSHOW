@@ -2,6 +2,7 @@
     background-color: #eeeeee;
     min-height: 100%;
 }
+/* 搜索 */
 .index .head{
     height: 64px;
     padding: 17px 30px;
@@ -56,19 +57,21 @@
     position: relative;
     top: -22px;
 }
-
-.index .swiper__container{
+/* 轮播 */
+.index .banner .swiper__container{
     height: 380px;
 }
-.index .swiper__wrapper{
+.index .banner .swiper__wrapper{
     height: 380px!important;
 }
-.index .swiper__item{
+.index .banner .swiper__item{
     height: 380px!important;
 }
+/* 提示消息 */
 .index .newsBox{
     height: 42px;
     padding: 18px 30px;
+    overflow: hidden;
 }
 
 .index .newsBox .title{
@@ -78,20 +81,78 @@
     color: #3e3e3e;
     float: left;
 }
+.index .newsBox .test-h{
+    height:40px!important;
+    width: 300px;
+    display: inline-block;
+    margin-left: 47px;
+    font-size: 24px;
+    color: #7e7e7e;
+    line-height: 40px;
+    float: left;
+}
 
+.index .newsBox .newsTime {
+    height:40px ;
+    width: 120px;
+    display: inline-block;
+    font-size: 24px;
+    color: #7e7e7e;
+    line-height: 40px;
+    margin-right: 50px;
+    border-right: 1px solid #7e7e7e;
+    float: left;
+}
+.index .newsBox .newsMore{
+    height:40px ;
+    display: inline-block;
+    font-size: 24px;
+    color: #000000;
+    line-height: 40px;
+    float: left;
+}
 
+/*postcss-pxtransform weapp eject enable*/
+.index .head image{
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+    margin: 14px 0px 14px 21px;
+}
+.index .headTabL image{
+    display: block;
+    border: none;
+    width: 100%;
+}
+.index .activityBox {
+    height: 200px;
+    padding: 20px 30px;
+}
+.activityBox image{
+    display: inline-block;
+    height: 200px;
+    flex: 1;
+}
+.index .headTabL image{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
+.index .headTabL text{
+    display: inline-block;
+    width: 100%;
+    font-size: 28px;
+    text-align: center;
+    color: #7e7e7e;
+    position: relative;
+    top: -22px;
+}
+image{
+    width: 100%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+/*postcss-pxtransform weapp eject disable*/
 
 
 

@@ -7,14 +7,17 @@ class App extends Component {
 
   config = {
     pages: [
+      'pages/rechargeRecord/rechargeRecord',
+      'pages/personInfo/personInfo',
+      'pages/settingUp/settingUp',
+      'pages/my/my',
       'pages/index/index',
       'pages/register/register',
-      'pages/my/my',
       'pages/news/news',
       'pages/recharge/recharge',
       'pages/newsDetail/newsDetail',
       'pages/activity/activity',
-      'pages/goodsList/goodsList',
+      'pages/orderList/orderList',
       'pages/goodsDetail/goodsDetail',
       'pages/search/search',
       'pages/productActivation/productActivation',
@@ -25,10 +28,11 @@ class App extends Component {
       'pages/myRecharge/myRecharge',
       'pages/login/login',
       'pages/forgetPassword/forgetPassword',
-      'pages/banner/banner'
+      'pages/banner/banner',
+      'pages/allGoods/allGoods'
     ],
-    "debug": true,
-    "tabBar": {
+	"debug": true,
+	"tabBar": {
       "backgroundColor": "#ffffff",
       "borderStyle": "#466577",
       "color": "#7E7E7E",
