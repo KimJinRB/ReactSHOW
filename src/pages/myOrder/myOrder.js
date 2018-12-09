@@ -37,17 +37,19 @@ export default class MyOrder extends Component {
               <Text className='orderType'>待验收</Text>
             </View>
             <View className='orderContent'>
-              <Image src={goods}></Image>
-              <View className='orderData'>
-                <View className='goodsName'></View>
-                <View className='goodsSize'>
-                  <Text>银灰色</Text><Text>小号</Text><Text>×1</Text><Text className='goodsPrise'>￥199</Text>
+              <View className='subList'>
+                <Image src={goods} className='goodsBanner'></Image>
+                <View className='orderData'>
+                  <View className='goodsName'>购贝壳W2智能小米扫地机器人送等值话费</View>
+                  <View className='goodsSize'>
+                    <Text>银灰色</Text><Text>小号</Text><Text>×1</Text><Text className='goodsPrise'>￥199</Text>
+                  </View>
                 </View>
               </View>
             </View>
             <View className='orderFoot'>
               <View className='total'>
-                <Text className='allPrise'>￥1999</Text><Text>应付金额</Text><Text>共2件商品</Text>
+                <Text className='allPrise'>￥1999</Text><Text>应付金额：</Text><Text>共2件商品</Text>
               </View>
               <View className='buttonBox'>
                 <Text className='active'>确认收货</Text><Text>查看物流</Text>
@@ -60,17 +62,29 @@ export default class MyOrder extends Component {
               <Text className='orderType'>待付款</Text>
             </View>
             <View className='orderContent'>
-              <Image src={goods}></Image>
-              <View className='orderData'>
-                <View className='goodsName'></View>
-                <View className='goodsSize'>
-                  <Text>银灰色</Text><Text>小号</Text><Text>×1</Text><Text className='goodsPrise'>￥199</Text>
+              <View className='subList'>
+                <Image src={goods} className='goodsBanner'></Image>
+                <View className='orderData'>
+                  <View className='goodsName'>购贝壳W2智能小米扫地机器人送等值话费</View>
+                  <View className='goodsSize'>
+                    <Text>银灰色</Text><Text>小号</Text><Text>×1</Text><Text className='goodsPrise'>￥199</Text>
+                  </View>
                 </View>
               </View>
+              <View className='subList'>
+                <Image src={goods} className='goodsBanner'></Image>
+                <View className='orderData'>
+                  <View className='goodsName'>购贝壳W2智能小米扫地机器人送等值话费</View>
+                  <View className='goodsSize'>
+                    <Text>银灰色</Text><Text>小号</Text><Text>×1</Text><Text className='goodsPrise'>￥199</Text>
+                  </View>
+                </View>
+              </View>
+              
             </View>
             <View className='orderFoot'>
               <View className='total'>
-                <Text className='allPrise'>￥1999</Text><Text>应付金额</Text><Text>共2件商品</Text>
+                <Text className='allPrise'>￥1999</Text><Text>应付金额：</Text><Text>共2件商品</Text>
               </View>
               <View className='buttonBox'>
                 <Text className='active'>立即付款</Text>
@@ -83,17 +97,19 @@ export default class MyOrder extends Component {
               <Text className='orderType'>待发货</Text>
             </View>
             <View className='orderContent'>
-              <Image src={goods}></Image>
-              <View className='orderData'>
-                <View className='goodsName'></View>
-                <View className='goodsSize'>
-                  <Text>银灰色</Text><Text>小号</Text><Text>×1</Text><Text className='goodsPrise'>￥199</Text>
+             <View className='subList'>
+                <Image src={goods} className='goodsBanner'></Image>
+                <View className='orderData'>
+                  <View className='goodsName'>购贝壳W2智能小米扫地机器人送等值话费</View>
+                  <View className='goodsSize'>
+                    <Text>银灰色</Text><Text>小号</Text><Text>×1</Text><Text className='goodsPrise'>￥199</Text>
+                  </View>
                 </View>
               </View>
             </View>
             <View className='orderFoot'>
               <View className='total'>
-                <Text className='allPrise'>￥1999</Text><Text>应付金额</Text><Text>共2件商品</Text>
+                <Text className='allPrise'>￥1999</Text><Text>应付金额：</Text><Text>共2件商品</Text>
               </View>
               <View className='buttonBox'>
                 <Text>查看物流</Text>
@@ -106,17 +122,19 @@ export default class MyOrder extends Component {
               <Text className='orderType'>退货中</Text>
             </View>
             <View className='orderContent'>
-              <Image src={goods}></Image>
-              <View className='orderData'>
-                <View className='goodsName'></View>
-                <View className='goodsSize'>
-                  <Text>银灰色</Text><Text>小号</Text><Text>×1</Text><Text className='goodsPrise'>￥199</Text>
+              <View className='subList'>
+                <Image src={goods} className='goodsBanner'></Image>
+                <View className='orderData'>
+                  <View className='goodsName'>购贝壳W2智能小米扫地机器人送等值话费</View>
+                  <View className='goodsSize'>
+                    <Text>银灰色</Text><Text>小号</Text><Text>×1</Text><Text className='goodsPrise'>￥199</Text>
+                  </View>
                 </View>
               </View>
             </View>
             <View className='orderFoot'>
               <View className='total'>
-                <Text className='allPrise'>￥1999</Text><Text>应付金额</Text><Text>共2件商品</Text>
+                <Text className='allPrise'>￥1999</Text><Text>应付金额：</Text><Text>共2件商品</Text>
               </View>
               <View className='buttonBox'>
                 <Text className='active'>确认收货</Text><Text>查看物流</Text>

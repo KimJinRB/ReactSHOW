@@ -1,0 +1,74 @@
+.orderNews .content{
+    padding-top: 30px;
+}
+.orderNews .orderList {
+    height: 300px;
+    padding: 0px 30px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+.orderNews .orderList .orderNumber{
+    font-size: 28px;
+    line-height: 40px;
+    color: #7e7e7e;
+}
+.orderNews .orderList .orderHead{
+    height: 73px;
+    padding-top: 20px;
+}
+.orderNews .orderList .orderHead .orderTime{
+    font-size: 24px;
+    line-height: 45px;
+    color: #7e7e7e;
+    float: right;
+}
+.orderNews .orderList .orderHead .orderType{
+    display: inline-block;
+    font-size: 32px;
+    line-height: 45px;
+    float: left;
+    color: #3c3c3c;
+}
+.orderNews .orderList .subList{
+    display: flex;
+    margin-bottom: 40px;
+}
+.orderNews .orderList .subList .goodsBanner{
+    display: inline-block;
+    height: 183px;
+    width: 183px;
+    margin-right: 42px;
+}
+.orderNews .orderList .subList .orderData{
+    flex: 1;
+    height: 183px;
+}
+.orderNews .orderList .subList .goodsName{
+    font-size: 28px;
+    line-height: 40px;
+    color: #3e3e3e;
+    margin-bottom: 30px;
+}
+.orderNews .orderList .subList .goodsSize{
+    font-size: 28px;
+    line-height: 40px;
+    color: #7e7e7e;
+}
+.orderNews .orderList .subList .goodsPrise{
+    color: #14B3FF ;
+    float: right;
+}
+.orderNews .orderList .orderFoot .total{
+    height: 50px;
+    margin-bottom: 26px;
+    font-size: 28px;
+    line-height: 50px;
+    color: #909090;
+}
+
+
+/*postcss-pxtransform weapp eject enable*/
+
+
+
+/*postcss-pxtransform weapp eject disable*/

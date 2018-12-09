@@ -44,20 +44,92 @@
     color: #14B3FF;
     float: right;
 }
+.myOrder .orderList .subList{
+    display: flex;
+    margin-bottom: 40px;
+}
+.myOrder .orderList .subList .goodsBanner{
+    display: inline-block;
+    height: 183px;
+    width: 183px;
+    margin-right: 42px;
+}
+.myOrder .orderList .subList .orderData{
+    flex: 1;
+    height: 183px;
+}
+.myOrder .orderList .subList .goodsName{
+    font-size: 28px;
+    line-height: 40px;
+    color: #3e3e3e;
+    margin-bottom: 26px;
+}
+.myOrder .orderList .subList .goodsSize{
+    font-size: 28px;
+    line-height: 40px;
+    color: #7e7e7e;
+}
+.myOrder .orderList .subList .goodsPrise{
+    color: #14B3FF ;
+    float: right;
+}
+.myOrder .orderList .orderFoot .total{
+    height: 50px;
+    margin-bottom: 26px;
+    font-size: 28px;
+    line-height: 50px;
+    color: #909090;
+}
+.myOrder .orderList .orderFoot .total span{
+    float: right;
+    padding-left: 40px;
+}
+.myOrder .orderList .orderFoot .total .allPrise{
+    font-size: 40px;
+    color: #14B3FF;
+}
+.myOrder .orderList .orderFoot {
+    height: 155px;
+    padding: 25px;
+}
+.myOrder .orderList .orderFoot .buttonBox span{
+    display: inline-block;
+    height: 60px;
+    width: 150px;
+    font-size: 28px;
+    color: #7e7e7e;
+    line-height: 60px;
+    text-align: center;
+    float: right;
+    border: 1px solid #7e7e7e;
+    border-radius: 30px;
+    margin-left: 40px;
+}
+.myOrder .orderList .orderFoot .buttonBox .active{
+    color: #14B3FF;
+    border: 1px solid #14B3FF;
+}
 
+/*postcss-pxtransform weapp eject enable*/
+.myOrder .orderList .orderFoot .buttonBox text{
+    display: inline-block;
+    height: 60px;
+    width: 150px;
+    font-size: 28px;
+    color: #7e7e7e;
+    line-height: 60px;
+    text-align: center;
+    float: right;
+    border: 1px solid #7e7e7e;
+    border-radius: 30px;
+    margin-left: 40px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.myOrder .orderList .orderFoot .total text{
+    float: right;
+    margin-left: 40px;
+}
+/*postcss-pxtransform weapp eject disable*/
 
 
 

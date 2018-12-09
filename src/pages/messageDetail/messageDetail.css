@@ -1,0 +1,40 @@
+.messageDetail .content{
+    background-color: #ffffff;
+    padding: 40px;
+}
+.messageDetail .articleTitle{
+    font-size: 42px;
+    line-height: 60px;
+    color: #3c3c3c;
+    margin-bottom: 26px;
+}
+
+.messageDetail .articleTime{
+    font-size: 28px;
+    line-height: 40px;
+    color: #7e7e7e;
+    margin-bottom: 40px;
+}
+.messageDetail .articleBanner{
+    display: block;
+    width: 100%;
+    margin-bottom: 28px;
+}
+
+.messageDetail .paragraph{
+    text-indent: 2em;
+    display: block;
+    font-size: 32px;
+    line-height: 48px;
+    color: #3c3c3c;
+    margin-bottom: 80px;
+}
+
+
+
+/*postcss-pxtransform weapp eject enable*/
+
+
+/*postcss-pxtransform weapp eject disable*/
+
+

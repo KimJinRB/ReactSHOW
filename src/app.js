@@ -7,6 +7,8 @@ class App extends Component {
 
   config = {
     pages: [
+      'pages/messageDetail/messageDetail',
+      'pages/orderNews/orderNews',
       'pages/myOrder/myOrder',
       'pages/coupon/coupon',
       'pages/recharge/recharge',

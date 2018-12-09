@@ -3,11 +3,12 @@
 }
 .header{
     height: 98px;
-    border-bottom: 2px solid #dddddd;
     text-align: center;
+    font-size: 28px;
     color: #3e3e3e;
     line-height: 98px;
     background-color: #ffffff;
+    border-bottom: 2px solid #dddddd;
 }
 .taro-img{
     display: inline;
