@@ -1,0 +1,67 @@
+.myOrder .head{
+    height: 88px;
+    line-height: 88px;
+    font-size: 28px;
+    text-align: center;
+    color: #7e7e7e;
+    display: flex;
+    background-color: #ffffff;
+}
+.myOrder .head .tab{
+    flex: 1;
+}
+.myOrder .head .active{
+    color: #14B3FF;
+    position: relative;
+}
+.myOrder .head .active::after{
+    display: block;
+    content: '';
+    width: 100px;
+    height: 0px;
+    border-top: 2px solid #14B3FF;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -50px;
+}
+.myOrder .orderList{
+    margin-top: 20px;
+    padding: 0 30px;
+    background-color: #ffffff;
+}
+.myOrder .orderList .orderHead{
+    padding: 30px 0px 33px 0px;
+    line-height: 40px;
+}
+
+.myOrder .orderList .orderHead .orderTime{
+    font-size: 24px;
+    color: #7e7e7e;
+}
+.myOrder .orderList .orderHead .orderType{
+    font-size: 28px;
+    color: #14B3FF;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

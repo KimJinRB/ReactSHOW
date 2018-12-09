@@ -1,0 +1,124 @@
+.recharge .head{
+    background-color: #ffffff;
+    height: 355px;
+    padding: 33px 0px;
+    margin-bottom: 30px;
+}
+.recharge .head .list{
+    width: 25%;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    line-height: 42px;
+    color: #3e3e3e;
+    margin: 27px 0px;
+}
+
+.recharge .head .list .icon{
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    margin-bottom: 34px;
+}
+.recharge .newContent{
+    padding: 24px 0px 0px 30px;
+    background-color: #ffffff;
+    padding-bottom: 94px;
+}
+.recharge .newContent .title{
+    font-size: 30px;
+    line-height: 42px;
+    color: #3e3e3e;
+    margin-bottom: 30px;
+}
+.recharge .newContent .newList{
+    height: 120px;
+    margin-bottom: 38px;
+}
+.recharge .newContent .newList img{
+    display: inline-block;
+    width: 180px;
+    margin-right: 33px;
+    float: left;
+}
+.recharge .newContent .newList .newRight div{
+    width: 490px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.recharge .newContent .newList .newTitle{
+    font-size: 30px ;
+    line-height: 42px;
+    color: #3e3e3e;
+    margin-bottom: 10px;
+}
+.recharge .newContent .newList .newDetail{
+    font-size: 24px ;
+    line-height: 33px;
+    color: #7e7e7e;
+    margin-bottom: 18px;
+}
+.recharge .newContent .newList .newTime{
+    font-size: 22px ;
+    line-height: 30px;
+    color: #909090;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*postcss-pxtransform weapp eject enable*/
+.recharge .newContent .newList img{
+    display: inline-block;
+    width: 180px;
+    margin-right: 33px;
+    float: left;
+}
+
+
+
+/*postcss-pxtransform weapp eject disable*/
+
+
+

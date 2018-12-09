@@ -30,7 +30,6 @@ export default class Recharge extends Component {
     return (
       <View className='rechargeR'>
        {process.env.TARO_ENV === 'h5' && <View className='header'>充值记录</View>}
-       
        <View className='tabList'>
           <View className='title'>充值</View>
           <View className='list'>

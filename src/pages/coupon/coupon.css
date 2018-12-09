@@ -1,0 +1,87 @@
+.coupon .head{
+    height: 88px;
+    line-height: 88px;
+    font-size: 28px;
+    text-align: center;
+    color: #7e7e7e;
+    display: flex;
+    background-color: #ffffff;
+}
+.coupon .head .tab{
+    flex: 1;
+}
+.coupon .head .active{
+    color: #14B3FF;
+}
+
+.coupon .content{
+    padding: 57px 30px 0px 30px;
+}
+.coupon .content .list{
+    height: 166px;
+    background: url('../../resource/coupon/bg_quan1.png') no-repeat;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+
+.coupon .content .list .couponType{
+    display: inline-block;
+    width: 182px;
+    height: 166px;
+    font-size: 48px;
+    line-height: 166px;
+    text-align: center;
+    color: #ffffff;
+    float: left;
+}
+
+.coupon .content .list .couponBox{
+    display: inline-block;
+    margin-left: 47px;
+    padding-top: 23px;
+}
+.coupon .content .list .couponTitle{
+    display: inline-block;
+    font-size: 48px;
+    line-height: 67px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+.coupon .content .list .couponUint{
+    font-size: 22px;
+    line-height: 30px;
+    color: #ffffff;
+}
+.coupon .content .list .couponTime{
+    font-size: 22px;
+    line-height: 30px;
+    color: #ffffff;
+}
+.coupon .content .list .status{
+    display: inline-block;
+    width: 148px;
+    height: 56px;
+    font-size: 28px;
+    line-height: 56px;
+    text-align: center;
+    color: #14B3FF;
+    float: right;
+    margin: 55px 32px 55px 0px;
+    background-color: #ffffff;
+    border: none;
+}
+.coupon .noDataImg{
+    display: block;
+    height: 70px;
+    width: 88px;
+    margin: 0 auto;
+}
+.coupon .noData .noDataCon{
+    font-size: 24px;
+    line-height: 33px;
+    color: #909090;
+    margin-top: 18px;
+    text-align: center;
+}
+
