@@ -1,0 +1,75 @@
+.orderNewsDet .content{
+    padding-top: 30px;
+}
+
+.orderNewsDet .goods{
+    height: 260px;
+    padding: 20px 30px;
+    background-color: #ffffff;
+    margin-bottom: 28px;
+}
+.orderNewsDet .head .type{
+    font-size: 32px;
+    line-height: 45px;
+    color: #3c3c3c;
+}
+.orderNewsDet .head .time{
+    font-size: 24px;
+    line-height: 45px;
+    color: #7e7e7e;
+}
+.orderNewsDet .infoBox{
+    display: flex;
+}
+.orderNewsDet .infoBox .banner{
+    display: inline-block;
+    height: 183px;
+    width: 183px;
+    margin-right: 42px;
+}
+.orderNewsDet .infoBox .info{
+    flex: 1;
+
+}
+.orderNewsDet .infoBox .name{
+    font-size: 28px;
+    line-height: 40px;
+    color: #3e3e3e;
+    margin-bottom: 30px;
+}
+.orderNewsDet .infoBox .freight,.orderNewsDet .infoBox .price{
+    font-size: 28px;
+    line-height: 40px;
+    color: #7e7e7e;
+}
+.orderNewsDet .infoBox .payMony{
+    float: right;
+    color: #14B3FF;
+}
+
+.orderNewsDet .express{
+    height: 194px;
+    padding: 30px 30px 0px 30px;
+}
+.orderNewsDet .expressName{
+    font-size: 36px;
+    line-height: 50px;
+    color: #14B3FF;
+    margin-bottom: 12px;
+}
+.orderNewsDet .expressPhone{
+    font-size: 24px;
+    line-height: 33px;
+    color: #909090;
+    margin-bottom: 30px;
+}
+.orderNewsDet .expressNumber{
+    font-size: 28px;
+    line-height: 40px;
+    color: #3e3e3e;
+}
+.orderNewsDet .expressNumber .copy{
+    color: #14B3FF;
+    float: right;
+}
+

@@ -78,3 +78,95 @@ view,image,text,button,input,label{
     margin-top: 18px;
     color: #14B3FF;
 }
+/* 
+物流消息 */
+.expressDet{
+    padding: 54px 30px 0px 30px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+.expressDet .list{
+    display: flex;
+    padding-bottom: 40px;
+    position: relative;
+    overflow: hidden;
+}
+.expressDet .list::before{
+    display: block;
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 100px;
+    border-left: 2px solid #b1b1b1;
+    top: 60px;
+    left: 158px;
+}
+.expressDet .list:last-child::before{
+    display: block;
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 0px;
+}
+.expressDet .list .time{
+    display: inline-block;
+    width: 71px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #7e7e7e;
+    margin-right: 58px;
+}
+.expressDet .list .icon{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    font-size: 36px;
+    line-height: 60px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #14B3FF;
+    margin-right: 36px;
+    border-radius: 30px;
+}
+.expressDet .list .accomplish{
+    background-color: #b1b1b1;
+}
+.expressDet .list .empty{
+    background-color: #ffffff;
+    position: relative;
+}
+.expressDet .list .empty::after{
+    display: block;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    content: '';
+    background-color: #b1b1b1;
+    top: 20px;
+    left: 20px;
+    border-radius: 10px;
+}
+.expressDet .list .detail{
+    flex: 1;
+}
+.expressDet .list .detail .status{
+    font-size: 28px;
+    line-height: 40px;
+}
+.expressDet .list .detail span{
+    font-size: 24px;
+    line-height: 33px;
+    color: #7e7e7e;
+    float: left;
+}
+
+
+/*postcss-pxtransform weapp eject enable*/
+.expressDet .list .detail text{
+    font-size: 24px;
+    line-height: 33px;
+    color: #7e7e7e;
+    float: left;
+}
+
+/*postcss-pxtransform weapp eject disable*/

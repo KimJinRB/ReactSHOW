@@ -1,0 +1,89 @@
+
+.logistics .goods{
+    height: 200px;
+    padding: 20px 30px;
+    background-color: #ffffff;
+}
+.logistics .head{
+   height: 132px;
+   padding-top: 36px;
+   background-color: #ffffff;
+   margin-bottom: 20px;
+}
+.logistics .head .title{
+    font-size: 36px;
+    line-height: 50px;
+    color: #3e3e3e;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.logistics .head .status{
+    font-size: 24px;
+    line-height: 33px;
+    color: #7e7e7e;
+    text-align: center;
+}
+.logistics .infoBox{
+    display: flex;
+}
+.logistics .infoBox .banner{
+    display: inline-block;
+    height: 183px;
+    width: 183px;
+    margin-right: 42px;
+}
+.logistics .infoBox .info{
+    flex: 1;
+
+}
+.logistics .infoBox .name{
+    font-size: 28px;
+    line-height: 40px;
+    color: #3e3e3e;
+    margin-bottom: 10px;
+}
+.logistics .infoBox .price{
+    font-size: 28px;
+    line-height: 40px;
+    color: #3e3e3e;
+    margin-bottom: 20px;
+}
+.logistics .infoBox .property{
+    font-size: 24px;
+    line-height: 33px;
+    color: #7e7e7e;
+}
+
+.logistics .express{
+    height: 100px;
+    line-height: 100px;
+    font-size: 28px;
+    padding-left: 30px;
+}
+.logistics .expressName{
+    font-size: 36px;
+    line-height: 50px;
+    color: #14B3FF;
+    margin-bottom: 12px;
+}
+.logistics .expressPhone{
+    font-size: 24px;
+    line-height: 33px;
+    color: #909090;
+    margin-bottom: 30px;
+}
+.logistics .expressNumber{
+    font-size: 28px;
+    line-height: 40px;
+    color: #3e3e3e;
+}
+.logistics .expressNumber .copy{
+    color: #14B3FF;
+    float: right;
+}
+
+
+
+
+
+
