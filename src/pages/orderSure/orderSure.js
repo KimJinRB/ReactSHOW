@@ -1,5 +1,5 @@
 import Taro, { Component } from '@tarojs/taro'
-import { View, Text, Image, Input } from '@tarojs/components'
+import { View, Text, Image, Input, Checkbox } from '@tarojs/components'
 import './orderSure.css'
 import nextBtn from '../../resource/my/btn_next.png'
 import goods from '../../resource/index/banner.png'
@@ -92,7 +92,7 @@ export default class Ordersure extends Component {
             </View>
           </View>
         </View>
-        <View className='cryptonym'><Input type='checkbox' className='radio'></Input>匿名购买</View>
+        <View className='cryptonym'><Checkbox value='选中' className='radio'>匿名购买</Checkbox></View>
         <View className='footer'>
             <View className='all'>
               <Text className='allNumber'>共2件商品</Text>
