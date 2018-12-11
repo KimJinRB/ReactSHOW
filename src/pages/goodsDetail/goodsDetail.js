@@ -21,6 +21,7 @@ export default class GoodsDetail extends Component {
   render () {
     return (
       <View className='index'>
+      {process.env.TARO_ENV === 'h5' && <View className='header'>宝贝详情</View>}
         <Text>Hello world!</Text>
         <Text>撒的发顺丰!</Text>
       </View>

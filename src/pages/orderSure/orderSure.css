@@ -1,0 +1,230 @@
+.orderSure{
+    padding-bottom: 120px;
+}
+.orderSure .addressBox{
+    height: 132px;
+    padding: 36px 30px 0px 30px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+.orderSure .addressBox .icon{
+    display: inline-block;
+    height: 52px;
+    width: 43px;
+    margin-top: 24px;
+    margin-right: 52px;
+    float: left;
+}
+.orderSure .addressBox .cont{
+    width: 520px;
+    display: inline-block;
+}
+.orderSure .addressBox .name{
+    font-size: 30px;
+    line-height: 30px;
+    color: #3e3e3e;
+    margin-right: 52px;
+}
+.orderSure .addressBox .phone{
+    font-size: 30px;
+    line-height: 30px;
+    color: #3e3e3e;
+}
+.orderSure .addressBox .address{
+    font-size: 24px;
+    line-height: 33px;
+    color: #7e7e7e;
+    margin-top: 12px;
+}
+.orderSure .addressBox span{
+    float: left;
+}
+.orderSure .addressBox .nextBtn{
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+    float: right;
+    margin-top: 39px;
+}
+.orderSure .goodsInfo{
+    padding: 24px 30px 0px 30px;
+    height: 300px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+.orderSure .orderList{
+    margin-bottom: 40px;
+}
+.orderSure .goods{
+    display: flex;
+}
+.orderSure .goodsInfo .goodsBanner{
+    display: inline-block;
+    height: 183px;
+    width: 183px;
+    margin-right: 42px;
+}
+.orderSure .goodsInfo .infoBox{
+    flex: 1;
+}
+.orderSure .goodsInfo .goodsName{
+    font-size: 28px;
+    line-height: 40px;
+}
+.orderSure .goodsInfo .goodsPrice{
+    font-size: 28px;
+    line-height: 40px;
+    margin: 10px 0px 20px 0px;
+}
+.orderSure .goodsInfo .goodProperty{
+    font-size: 24px;
+    line-height: 33px;
+    color: #7e7e7e;
+}
+.orderSure .goodsInfo .btnType{
+    height: 74px;
+    font-size: 24px;
+    line-height: 74px;
+    color: #7e7e7e;
+    margin-top: 34px;
+}
+.orderSure .goodsInfo .btnType .returnBack{
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+    line-height: 36px;
+    color: #14B3FF;
+    border: 2px solid #14B3FF;
+    text-align: center;
+    margin-right: 14px;
+}
+.orderSure .orderInfo{
+    height: 448px;
+    background-color: #ffffff;
+}
+.orderSure .orderInfo .priceList{
+    height: 80px;
+    padding: 20px 30px;
+    font-size: 28px;
+    line-height: 80px;
+    color: #7e7e7e;
+    border-bottom:2px solid #f4f4f4 
+}
+.orderSure .orderInfo .message{
+    display: flex;
+}
+.orderSure .orderInfo .priceTitle{
+    display: inline-block;
+    width: 175px;
+    color: #3e3e3e;
+}
+.orderSure .orderInfo .priceList input{
+    flex: 1;
+    height: 80px;
+    line-height: 80px;
+}
+.orderSure .orderInfo .allPrice{
+    display: block;
+    height: 88px;
+    line-height: 88px;
+    font-size: 30px;
+    color: #14B3FF;
+    text-align: right;
+    margin-top: 44px;
+}
+.orderSure .orderInfo .total{
+    height: 88px;
+    padding: 0px 30px;
+}
+.orderSure .orderInfo .totalNumber{
+    display: inline-block;
+    font-size: 24px;
+    color: #3e3e3e;
+    line-height: 88px;
+    margin-bottom: 20px;
+    float: right;
+    margin-right: 60px;
+}
+.orderSure .orderInfo .totalPrice{
+    display: inline-block;
+    font-size: 36px;
+    color: #14B3FF;
+    line-height: 88px;
+    float: right;
+}
+
+.orderSure .orderInfo .goodsNumber{
+    display: inline-block;
+    width: 400px;
+    float: right;
+}
+.orderSure .orderInfo .numberAdd,.orderSure .orderInfo .numberReduce,.orderSure .orderInfo .number{
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 32px;
+    color: #555555;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+.orderSure .orderInfo .number{
+    width: 160px;
+    margin: 0px 40px;
+}
+.orderSure .cryptonym{
+    height: 90px;
+    font-size: 24px;
+    line-height: 90px;
+    color: #7e7e7e;
+    padding-left: 30px;
+}
+.orderSure .cryptonym .radio{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+    border: 2px solid red;
+}
+.orderSure .footer{
+    position: fixed;
+    bottom: 0px;
+    height: 120px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    padding-left: 30px;
+}
+.orderSure .footer .all{
+    flex: 5;
+    padding-top: 20px;
+}
+.orderSure .footer .sureBtn{
+   flex: 4;
+   line-height: 120px;
+   font-size: 32px;
+   color: #ffffff;
+   text-align: center;
+   background-color: #14B3FF;
+}
+.orderSure .footer .allNumber{
+    display: block;
+    font-size: 24px;
+    color: #3e3e3e;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.orderSure .footer .allPrice{
+    display: block;
+    font-size: 36px;
+    color: #14B3FF;
+    line-height: 36px;
+}
+/*postcss-pxtransform weapp eject enable*/
+.orderSure .addressBox text{
+    float: left;
+}
+
+
+/*postcss-pxtransform weapp eject disable*/

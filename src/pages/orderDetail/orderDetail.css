@@ -1,0 +1,169 @@
+.orderDetail .addressBox{
+    height: 132px;
+    padding: 36px 30px 0px 30px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+.orderDetail .addressBox .icon{
+    display: inline-block;
+    height: 52px;
+    width: 43px;
+    margin-top: 24px;
+    margin-right: 52px;
+    float: left;
+}
+.orderDetail .addressBox .cont{
+    width: 520px;
+    display: inline-block;
+}
+.orderDetail .addressBox .name{
+    font-size: 30px;
+    line-height: 30px;
+    color: #3e3e3e;
+    margin-right: 52px;
+}
+.orderDetail .addressBox .phone{
+    font-size: 30px;
+    line-height: 30px;
+    color: #3e3e3e;
+}
+.orderDetail .addressBox .address{
+    font-size: 24px;
+    line-height: 33px;
+    color: #7e7e7e;
+    margin-top: 12px;
+}
+.orderDetail .addressBox span{
+    float: left;
+}
+.orderDetail .addressBox .nextBtn{
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+    float: right;
+    margin-top: 39px;
+}
+.orderDetail .goodsInfo{
+    padding: 24px 30px 0px 30px;
+    height: 300px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+.orderDetail .goods{
+    display: flex;
+}
+.orderDetail .goodsInfo .goodsBanner{
+    display: inline-block;
+    height: 183px;
+    width: 183px;
+    margin-right: 42px;
+}
+.orderDetail .goodsInfo .infoBox{
+    flex: 1;
+}
+.orderDetail .goodsInfo .goodsName{
+    font-size: 28px;
+    line-height: 40px;
+}
+.orderDetail .goodsInfo .goodsPrice{
+    font-size: 28px;
+    line-height: 40px;
+    margin: 10px 0px 20px 0px;
+}
+.orderDetail .goodsInfo .goodProperty{
+    font-size: 24px;
+    line-height: 33px;
+    color: #7e7e7e;
+}
+.orderDetail .goodsInfo .btnType{
+    display: block;
+    height: 60px;
+    width: 150px;
+    font-size: 28px;
+    line-height: 60px;
+    color: #14B3FF;
+    margin-top: 30px;
+    float: right;
+    border: 2px solid #14B3FF;
+    border-radius: 30px;
+    text-align: center;
+}
+.orderDetail .price{
+    padding: 32px 30px 0px 30px;
+    height: 356px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+.orderDetail .price .priceList{
+    font-size: 28px;
+    line-height: 56px;
+    color: #7e7e7e;
+}
+.orderDetail .price .priceList .typeDetail{
+    float: right;
+    text-align: right;
+}
+.orderDetail .price .allPrice{
+    display: block;
+    height: 88px;
+    line-height: 88px;
+    font-size: 30px;
+    color: #14B3FF;
+    text-align: right;
+    margin-top: 44px;
+    
+}
+.orderDetail .orderInfo{
+    padding: 20px 30px 0px 30px;
+    height: 400px;
+    background-color: #ffffff;
+}
+.orderDetail .orderInfo .infoList{
+    font-size: 28px;
+    line-height: 56px;
+    color: #7e7e7e;
+}
+.orderDetail .orderInfo .typeName{
+    margin-right: 40px;
+}
+.orderDetail .orderInfo .infoTitle{
+    height: 96px;
+    font-size: 32px;
+    line-height: 85px;
+}
+.orderDetail .footer{
+    height: 100px;
+    padding: 0px 30px;
+}
+.orderDetail .footer .iconKefu{
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+    float: left;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.orderDetail .footer .contactKefu{
+    font-size: 24px;
+    line-height: 100px;
+    color: #7e7e7e;
+}
+.orderDetail .footer .checkBtn{
+    display: inline-block;
+    height: 60px;
+    width: 150px;
+    font-size: 28px;
+    color: #7e7e7e;
+    line-height: 60px;
+    text-align: center;
+    float: right;
+    border: 2px solid #7e7e7e;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+/*postcss-pxtransform weapp eject enable*/
+.orderDetail .addressBox text{
+    float: left;
+}
+
+/*postcss-pxtransform weapp eject disable*/

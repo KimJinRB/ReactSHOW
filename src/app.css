@@ -22,7 +22,7 @@ view,image,text,button,input,label{
     min-height: 100%;
 }
 .clearBoth{
-    clear: both;
+    clear: both!important;
 }
 
 /* 商品列表样式 */
