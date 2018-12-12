@@ -8,7 +8,7 @@ import btn_chongzhi4 from '../../resource/recharge/btn_chongzhi4.png'
 import btn_chongzhi5 from '../../resource/recharge/btn_chongzhi5.png'
 import btn_chongzhi6 from '../../resource/recharge/btn_chongzhi6.png'
 import btn_chongzhi7 from '../../resource/recharge/btn_chongzhi7.png'
-import btnNext from '../../resource/my/btn_next.png'
+import btnNext from '../../resource/public/btn_next.png'
 
 export default class Recharge extends Component {
 

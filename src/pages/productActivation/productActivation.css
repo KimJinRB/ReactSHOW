@@ -1,0 +1,56 @@
+.activate .head{
+    height: 186px;
+    padding-top: 36px;
+    background-color: #ffffff;
+}
+.activate .head .title{
+    font-size: 36px;
+    line-height: 50px;
+    color: #3e3e3e;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.activate .head .hint{
+   font-size: 24px;
+   line-height: 33px;
+   line-height: #7e7e7e;
+   padding: 0px 100px;
+}
+.activate .activateCode{
+    display: block;
+    height: 86px;
+    width: 610px;
+    font-size: 28px;
+    line-height: 86px;
+    color: #7e7e7e;
+   margin: 0 auto;
+   margin-top: 110px;
+   margin-bottom: 66px;
+   background-color: #ffffff;
+   text-align: center;
+}
+.activate .btnActivate,.activate .btnDetail{
+    width: 690px;
+    height: 88px;
+    line-height: 88px;
+    background-color: #14B3FF;
+    font-size: 32px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 40px;
+    margin: 0 auto;
+}
+
+.activate .btnDetail{
+    color: #14B3FF;
+    background-color: #ffffff;
+    border: 2px solid #14B3FF;
+    margin-top: 40px;
+}
+
+
+/*postcss-pxtransform weapp eject enable*/
+
+
+
+/*postcss-pxtransform weapp eject disable*/

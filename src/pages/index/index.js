@@ -1,7 +1,7 @@
 import Taro, { Component } from '@tarojs/taro'
 import { View, Text, Swiper, SwiperItem, Image, Input} from '@tarojs/components'
 import './index.css'
-import banner from '../../resource/index/banner.png'
+import banner from '../../resource/public/banner.png'
 import activate from '../../resource/index/activate.png'
 import goods from '../../resource/index/goods.png'
 import invite from '../../resource/index/invite.png'

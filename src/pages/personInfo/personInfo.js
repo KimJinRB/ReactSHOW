@@ -2,7 +2,7 @@ import Taro, { Component } from '@tarojs/taro'
 import { View, Text, Label, Image, Button } from '@tarojs/components'
 
 import './personInfo.css'
-import btnNext from '../../resource/my/btn_next.png'
+import btnNext from '../../resource/public/btn_next.png'
 import header from '../../resource/my/useHeader.png'
 
 export default class SettingUp extends Component {

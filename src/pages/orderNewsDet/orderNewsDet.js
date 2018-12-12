@@ -1,7 +1,7 @@
 import Taro, { Component } from '@tarojs/taro'
 import { View, Text, Input, Image } from '@tarojs/components'
 import './orderNewsDet.css'
-import goods from '../../resource/index/banner.png'
+import goods from '../../resource/public/banner.png'
 
 export default class OrderNewsDet extends Component {
 

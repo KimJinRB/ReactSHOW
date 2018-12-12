@@ -1,7 +1,7 @@
 import Taro, { Component } from '@tarojs/taro'
-import { View, Text, Input, Image } from '@tarojs/components'
+import { View, Text, Button, Image } from '@tarojs/components'
 import './logistics.css'
-import goods from '../../resource/index/banner.png'
+import banner from '../../resource/public/banner.png'
 
 export default class Logistics extends Component {
 
@@ -30,7 +30,7 @@ export default class Logistics extends Component {
           </View>
           <View className='goods'>
             <View className='infoBox'>
-              <Image className='banner' src={goods}></Image>
+              <Image className='banner' src={banner}></Image>
               <View className='info'>
                 <View className='name'>购贝壳W2智能小米扫地机器人送等值话费</View>
                 <View className='price'>¥ 180.00</View>

@@ -1,7 +1,7 @@
 import Taro, { Component } from '@tarojs/taro'
 import { View, Text, Form, Input, Label, Button, Image} from '@tarojs/components'
 import './messageDetail.css'
-import banner from '../../resource/index/banner.png'
+import banner from '../../resource/public/banner.png'
 
 export default class MessageDetail extends Component {
 

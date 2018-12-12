@@ -1,7 +1,7 @@
 import Taro, { Component } from '@tarojs/taro'
 import { View, Text, Button, Image, Label } from '@tarojs/components'
 import './myOrder.css'
-import goods from '../../resource/index/banner.png'
+import goods from '../../resource/public/banner.png'
 
 export default class MyOrder extends Component {
 

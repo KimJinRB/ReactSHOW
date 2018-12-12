@@ -1,0 +1,95 @@
+.rechargePhone{
+    padding-bottom: 46px;
+    background-color: #ffffff;
+}
+.rechargePhone .header{
+    padding: 0px 30px;
+    position: relative;
+}
+.rechargePhone .header .quan{
+    display: inline-block;
+    width: 64px;
+    height: 44px;
+    position: absolute;
+    top: 28px;
+    right: 30px;
+}
+.rechargePhone .header .czjilu{
+    display: inline-block;
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    top: 25px;
+    right: 138px;
+}
+
+.rechargePhone .quanType{
+    padding: 0px 30px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.rechargePhone .list:nth-child(3n+2){
+    margin: 0px 20px;
+}
+.rechargePhone .list{
+    display: inline-block;
+    width: 210px;
+    height: 100px;
+    padding-top: 15px;
+    border: 2px solid #14B3FF;
+    color: #14B3FF;
+    text-align: center;
+    flex: 1;
+}
+
+.rechargePhone .list .faceValue{
+    font-size: 36px;
+    line-height: 50px;
+}
+.rechargePhone .list .realValue{
+    font-size: 24px;
+    line-height: 33px;
+}
+.rechargePhone .phoneBox{
+    height: 190px;
+    padding: 60px 30px 0px;
+}
+.rechargePhone .phoneBox .phone{
+    display: inline-block;
+    width: 70%;
+}
+.rechargePhone .phoneNumber{
+    font-size: 64px;
+    line-height: 90px;
+    color: #14B3FF;
+}
+.rechargePhone .phoneAddress{
+    font-size: 24px;
+    line-height: 33px;
+    color: #7e7e7e;
+}
+.rechargePhone .phoneBox .icon{
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    float: right;
+    margin-top: 20px;
+}
+
+.rechargePhone .buyNow{
+    width: 690px;
+    height: 88px;
+    line-height: 88px;
+    font-size: 32px;
+    color: #ffffff;
+    background-color: #14B3FF;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 40px;
+    margin-top: 80px;
+}
+
+/*postcss-pxtransform weapp eject enable*/
+
+/*postcss-pxtransform weapp eject disable*/
+

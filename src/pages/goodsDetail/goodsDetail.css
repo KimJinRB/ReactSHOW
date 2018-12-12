@@ -1,0 +1,168 @@
+.goodsDet{
+    padding-bottom: 150px;
+}
+.goodsDet .banner{
+    height: 600px;
+}
+.goodsDet .goodsInfo{
+    height: 480px;
+    padding: 36px 30px 0px;
+    background-color: #ffffff;
+    margin-top: 30px;
+}
+.goodsDet .name{
+    font-size: 36px;
+    line-height: 50px;
+    color: #3e3e3e;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.goodsDet .detail{
+    font-size: 24px;
+    line-height: 33px;
+    color: #7e7e7e;
+    margin-bottom: 24px;
+}
+.goodsDet .price{
+    height: 50px;
+    margin-bottom: 34px;
+}
+.goodsDet .newPrice{
+    font-size: 36px;
+    line-height: 50px;
+    color: #14B3FF;
+    margin-right: 38px;
+}
+.goodsDet .oldPrice{
+    font-size: 24px;
+    line-height: 50px;
+    color: #b1b1b1;
+    text-decoration-line: line-through;
+}
+.goodsDet .characteristic{
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.goodsDet .characteristic .list{
+    flex: 1;
+}
+.goodsDet .characteristic .list .icon{
+    display: block;
+    height: 40px;
+    width: 36px;
+    margin: 0 auto;
+    margin-bottom: 22px;
+}
+.goodsDet .characteristic .list .explain{
+    display: block;
+    font-size: 28px;
+    line-height: 40px;
+    color: #3c3c3c;
+    text-align: center;
+}
+.goodsDet .characteristic .list .num{
+    display: block;
+    font-size: 24px;
+    line-height: 33px;
+    color: #909090;
+    text-align: center;
+}
+.goodsDet .discounts{
+    height: 74px;
+    line-height: 74px;
+    color: #7e7e7e;
+    font-size: 24px;
+}
+.goodsDet .discounts .discountsLogo{
+   display: inline-block;
+   height: 40px;
+   width: 40px;
+   line-height: 40px;
+   text-align: center;
+   color: #14B3FF;
+   border: 2px solid #14B3FF;
+   border-radius: 6px;
+   margin-right: 20px;
+}
+.goodsDet .choose{
+    height: 38px;
+    line-height: 38px;
+    font-size: 24px;
+    background-color: #ffffff;
+    padding: 25px 30px;
+    margin-bottom: 16px;
+}
+.goodsDet .choose .chooseType{
+    color: #b1b1b1;
+    margin-right: 24px;
+}
+.goodsDet .choose .nextBtn{
+    display: inline-block;
+    height: 38px;
+    width: 38px;
+    float: right;
+}
+.goodsDet .particulars{
+    min-height: 600px;
+    background-color: #ffffff;
+    font-size: 36px;
+    line-height: 50px;
+    text-indent: 2em;
+    padding: 30px;
+}
+
+.goodsDet .footer{
+    height: 120px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    border-top: 2px solid #f4f4f4;
+    background-color: #ffffff;
+}
+.goodsDet .list{
+    flex: 2;
+    padding-top: 20px;
+}
+.goodsDet .list:first-child{
+    position: relative;
+}
+.goodsDet .list:first-child::after{
+    display: block;
+    width: 3px;
+    height: 70px;
+    content: '';
+    background-color: #b1b1b1;
+    position: absolute;
+    top: 25px;
+    right: 0px;
+}
+.goodsDet .list .icon{
+    display: block;
+    width: 40px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.goodsDet .list .explain{
+    display: block;
+    width: 100%;
+    font-size: 24px;
+    line-height: 33px;
+    color: #7e7e7e;
+    text-align: center;
+}
+.goodsDet .btnBuy{
+    padding-top: 0px;
+    flex: 4;
+    background-color: #14B3FF;
+    line-height: 120px;
+    font-size: 32px;
+    color: #ffffff;
+    text-align: center;
+}
+
+/*postcss-pxtransform weapp eject enable*/
+
+
+/*postcss-pxtransform weapp eject disable*/

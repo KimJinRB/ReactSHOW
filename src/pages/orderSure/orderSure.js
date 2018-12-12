@@ -1,8 +1,8 @@
 import Taro, { Component } from '@tarojs/taro'
 import { View, Text, Image, Input, Checkbox } from '@tarojs/components'
 import './orderSure.css'
-import nextBtn from '../../resource/my/btn_next.png'
-import goods from '../../resource/index/banner.png'
+import nextBtn from '../../resource/public/btn_next.png'
+import goods from '../../resource/public/banner.png'
 import address from '../../resource/order/address.png'
 import btnKefu from '../../resource/order/btn_kefu.png'
 
