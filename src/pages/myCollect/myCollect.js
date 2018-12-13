@@ -4,6 +4,13 @@ import './myCollect.css'
 
 export default class MyCollect extends Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    }
+  }
+  
   config = {
     navigationBarTitleText: '我的收藏'
   }

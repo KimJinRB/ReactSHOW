@@ -3,6 +3,12 @@ import { View, Text, Button, Image } from '@tarojs/components'
 import './coupon.css'
 import noData from '../../resource/coupon/icon_quan_dif.png'
 export default class Coupon extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    }
+  }
 
   config = {
     navigationBarTitleText: '平台返劵'

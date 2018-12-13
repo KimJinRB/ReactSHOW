@@ -7,6 +7,12 @@ import btn_czjilu from '../../resource/pay/btn_czjilu.png'
 
 
 export default class RechargePhone extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    }
+  }
 
   config = {
     navigationBarTitleText: '花费充值'

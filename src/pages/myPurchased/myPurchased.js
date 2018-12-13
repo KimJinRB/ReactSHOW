@@ -4,6 +4,13 @@ import './myPurchased.css'
 
 export default class MyPurchased extends Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    }
+  }
+  
   config = {
     navigationBarTitleText: '我的加购'
   }

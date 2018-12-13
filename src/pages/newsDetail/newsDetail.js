@@ -4,6 +4,13 @@ import './newsDetail.css'
 
 export default class NewsDetail extends Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    }
+  }
+  
   config = {
     navigationBarTitleText: '消息详情'
   }

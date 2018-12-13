@@ -4,6 +4,13 @@ import './productActivation.css'
 
 export default class ProductActivation extends Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    }
+  }
+  
   config = {
     navigationBarTitleText: '产品激活'
   }

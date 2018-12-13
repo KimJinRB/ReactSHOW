@@ -13,6 +13,13 @@ import news from '../../resource/recharge/goods2.png'
 
 export default class Recharge extends Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    }
+  }
+  
   config = {
     navigationBarTitleText: '发现'
   }

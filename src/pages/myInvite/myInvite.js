@@ -4,6 +4,13 @@ import './myInvite.css'
 
 export default class MyInvite extends Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    }
+  }
+  
   config = {
     navigationBarTitleText: '我的邀请'
   }

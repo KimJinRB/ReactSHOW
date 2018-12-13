@@ -5,6 +5,13 @@ import useHeader from '../../resource/my/useHeader.png'
 
 export default class Register extends Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    }
+  }
+  
   config = {
     navigationBarTitleText: '注册'
   }

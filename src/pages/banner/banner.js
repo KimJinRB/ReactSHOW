@@ -3,6 +3,12 @@ import { View, Text, Image } from '@tarojs/components'
 import './banner.css'
 
 export default class Banner extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    }
+  }
 
   config = {
     navigationBarTitleText: 'Banner详情'

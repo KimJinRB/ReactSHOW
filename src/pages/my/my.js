@@ -15,6 +15,13 @@ import btn_list6 from '../../resource/my/btn_grzx_list6.png'
 
 export default class My extends Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    }
+  }
+  
   config = {
     navigationBarTitleText: '我的'
   }

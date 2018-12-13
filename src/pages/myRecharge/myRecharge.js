@@ -4,6 +4,13 @@ import './myRecharge.css'
 
 export default class MyRecharge extends Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    }
+  }
+  
   config = {
     navigationBarTitleText: '我的充值'
   }

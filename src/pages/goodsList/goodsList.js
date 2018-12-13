@@ -4,6 +4,13 @@ import './goodsList.css'
 
 export default class GoodsList extends Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    }
+  }
+  
   config = {
     navigationBarTitleText: '宝贝列表'
   }

@@ -10,6 +10,13 @@ import btn_info3 from '../../resource/news/btn_info3.png'
 
 export default class News extends Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    }
+  }
+  
   config = {
     navigationBarTitleText: '消息'
   }

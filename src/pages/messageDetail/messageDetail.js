@@ -5,6 +5,13 @@ import banner from '../../resource/public/banner.png'
 
 export default class MessageDetail extends Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    }
+  }
+  
   config = {
     navigationBarTitleText: '资讯详情'
   }

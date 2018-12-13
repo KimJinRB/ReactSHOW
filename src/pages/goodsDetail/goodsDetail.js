@@ -13,6 +13,13 @@ import btn_xihuan from '../../resource/goods/btn_xihuan.png'
 
 export default class GoodsDetail extends Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    }
+  }
+  
   config = {
     navigationBarTitleText: '宝贝详情'
   }

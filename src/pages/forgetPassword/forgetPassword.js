@@ -4,6 +4,13 @@ import './forgetPassword.css'
 
 export default class ForgetPassword extends Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    }
+  }
+  
   config = {
     navigationBarTitleText: '忘记密码'
   }

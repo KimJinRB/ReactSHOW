@@ -16,6 +16,13 @@ import img_ad from '../../resource/index/img_ad.png'
 
 export default class Index extends Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    }
+  }
+  
   config = {
     navigationBarTitleText: '首页'
   }

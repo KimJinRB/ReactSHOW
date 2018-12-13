@@ -5,6 +5,13 @@ import goods from '../../resource/public/banner.png'
 
 export default class MyOrder extends Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    }
+  }
+  
   config = {
     navigationBarTitleText: '我的订单'
   }

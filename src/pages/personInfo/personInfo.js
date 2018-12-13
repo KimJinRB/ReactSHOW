@@ -7,6 +7,13 @@ import header from '../../resource/my/useHeader.png'
 
 export default class SettingUp extends Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    }
+  }
+  
   config = {
     navigationBarTitleText: '设置'
   }

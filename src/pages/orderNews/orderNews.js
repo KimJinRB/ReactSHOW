@@ -5,6 +5,13 @@ import goods from '../../resource/public/banner.png'
 
 export default class orderNews extends Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    }
+  }
+  
   config = {
     navigationBarTitleText: '订单消息'
   }

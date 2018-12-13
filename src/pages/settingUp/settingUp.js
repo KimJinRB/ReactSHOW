@@ -6,6 +6,13 @@ import btnNext from '../../resource/public/btn_next.png'
 
 export default class SettingUp extends Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    }
+  }
+  
   config = {
     navigationBarTitleText: '设置'
   }

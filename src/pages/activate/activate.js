@@ -3,6 +3,12 @@ import { View, Text, Input } from '@tarojs/components'
 import './activate.css'
 
 export default class Activate extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    }
+  }
 
   config = {
     navigationBarTitleText: '产品激活'

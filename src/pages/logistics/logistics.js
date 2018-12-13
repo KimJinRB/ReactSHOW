@@ -5,6 +5,13 @@ import banner from '../../resource/public/banner.png'
 
 export default class Logistics extends Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    }
+  }
+  
   config = {
     navigationBarTitleText: '查看物流'
   }

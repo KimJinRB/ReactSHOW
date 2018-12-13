@@ -8,6 +8,13 @@ import btnKefu from '../../resource/order/btn_kefu.png'
 
 export default class Ordersure extends Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    }
+  }
+  
   config = {
     navigationBarTitleText: '订单确认'
   }
