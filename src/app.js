@@ -7,6 +7,9 @@ class App extends Component {
 
   config = {
     pages: [
+      'pages/forgetPassword/forgetPassword',
+      'pages/login/login',
+      'pages/banner/banner',
       'pages/rechargePhone/rechargePhone',
       'pages/goodsDetail/goodsDetail',
       'pages/logistics/logistics',
@@ -33,9 +36,6 @@ class App extends Component {
       'pages/myInvite/myInvite',
       'pages/myPurchased/myPurchased',
       'pages/myRecharge/myRecharge',
-      'pages/login/login',
-      'pages/forgetPassword/forgetPassword',
-      'pages/banner/banner',
       'pages/allGoods/allGoods'
     ],
 	"debug": true,

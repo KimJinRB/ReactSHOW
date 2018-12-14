@@ -4,7 +4,7 @@ import './rechargePhone.css'
 import btn_tongxunlu from '../../resource/pay/btn_tongxunlu.png'
 import btn_quan from '../../resource/pay/btn_quan.png'
 import btn_czjilu from '../../resource/pay/btn_czjilu.png'
-
+import PayNow from '../../components/PayNow/PayNow'
 
 export default class RechargePhone extends Component {
   constructor(props) {
@@ -32,6 +32,7 @@ export default class RechargePhone extends Component {
     return (
       <View className='rechargePhone'>
         {process.env.TARO_ENV === 'h5' && <View className='header'>花费充值<Image src={btn_czjilu}  className='czjilu'></Image><Image src={btn_quan} className='quan'></Image></View>}
+        <PayNow></PayNow>
         <View className='phoneBox'>
           <View className='phone'>
             <Input value='12345678911' className='phoneNumber'></Input>

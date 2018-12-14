@@ -160,6 +160,86 @@ view,image,text,button,input,label{
     float: left;
 }
 
+/* 登录、注册、忘记密码 */
+.login{
+    background-color: #ffffff;
+    padding-bottom: 80px;
+}
+.login .banner{
+    padding-top:190px; 
+}
+.login .personHead{
+    display: block;
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+.login .personInfo{
+    padding: 0px 30px;
+    margin-bottom: 150px;
+}
+.login .box{
+    height: 120px;
+    padding: 0 30px;
+    line-height: 120px;
+    display: flex;
+    border-bottom: 2px solid #f4f4f4;
+}
+.login .box label{
+    display: inline-block;
+    width: 180px;
+    font-size: 36px;
+    color: #3c3c3c;
+}
+.login .box .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin-top: 30px;
+}
+.login .box .push{
+    display: inline-block;
+    flex: 1;
+    height: 120px;
+    line-height: 120px;
+    font-size: 28px;
+    color: #7e7e7e;
+    /* text-align: center; */
+}
+.login .submit{
+    height: 90px;
+    line-height: 90px;
+    font-size: 36px;
+    color: #ffffff;
+    background-color: #14B3FF;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    border: none;
+}
+.login .foot{
+    font-size: 36px;
+    color: #3c3c3c;
+    line-height: 60px;
+}
+.login .foot .regist{
+    float: right;
+}
+.login .getCode{
+    display: inline-block;
+    height: 80px;
+    line-height: 80px;
+    width: 200px;
+    font-size: 28px;
+    text-align: center;
+    background-color: #e3e3e3;
+    color: #7e7e7e;
+    margin-top: 20px;
+}
+.login .btnForget{
+    margin-top: 180px;
+}
 
 /*postcss-pxtransform weapp eject enable*/
 .expressDet .list .detail text{

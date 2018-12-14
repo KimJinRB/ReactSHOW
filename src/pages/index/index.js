@@ -27,12 +27,6 @@ export default class Index extends Component {
     navigationBarTitleText: '首页'
   }
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      
-    }
-  }
 
   componentWillMount () { }
 
