@@ -7,6 +7,9 @@ class App extends Component {
 
   config = {
     pages: [
+      'pages/recharge/recharge',
+      'pages/myOrder/myOrder',
+      'pages/index/index',
       'pages/forgetPassword/forgetPassword',
       'pages/login/login',
       'pages/banner/banner',
@@ -19,14 +22,14 @@ class App extends Component {
       'pages/orderDetail/orderDetail',
       'pages/messageDetail/messageDetail',
       'pages/orderNews/orderNews',
-      'pages/myOrder/myOrder',
+      'pages/setingCenter/setingCenter',
       'pages/coupon/coupon',
-      'pages/recharge/recharge',
+      
       'pages/rechargeRecord/rechargeRecord',
       'pages/personInfo/personInfo',
       'pages/settingUp/settingUp',
       'pages/my/my',
-      'pages/index/index',
+      
       'pages/register/register',
       'pages/news/news',
       'pages/newsDetail/newsDetail',

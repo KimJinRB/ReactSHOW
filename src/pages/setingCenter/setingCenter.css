@@ -1,13 +1,25 @@
+.recharge .head{
+    background-color: #ffffff;
+    height: 355px;
+    padding: 33px 0px;
+    margin-bottom: 30px;
+}
+.recharge .head .list{
+    width: 25%;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    line-height: 42px;
+    color: #3e3e3e;
+    margin: 27px 0px;
+}
 
-/* 轮播 */
-.recharge .banner .swiper__container{
-    height: 380px;
-}
-.recharge .banner .swiper__wrapper{
-    height: 380px!important;
-}
-.recharge .banner .swiper__item{
-    height: 380px!important;
+.recharge .head .list .icon{
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    margin-bottom: 34px;
 }
 .recharge .newContent{
     padding: 24px 0px 0px 30px;

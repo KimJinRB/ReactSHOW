@@ -1,6 +1,7 @@
 import Taro, { Component } from '@tarojs/taro'
 import { View, Text, Form, Input, Label, Button, Image } from '@tarojs/components'
 import './my.css'
+import publicFun from '../../public/public'
 import header from '../../resource/my/useHeader.png'
 import btnNext from '../../resource/public/btn_next.png'
 import icon_grzx_t1 from '../../resource/my/icon_grzx_t1.png'
@@ -38,6 +39,16 @@ export default class My extends Component {
 
   componentDidHide () { }
 
+  navigateTo = e => {
+    publicFun.navigateTo(e);
+  }
+  switchTab = e => {
+    publicFun.switchTab(e);
+  }
+  redirectTo = e => {
+    publicFun.redirectTo(e);
+  }
+
   render () {
     return (
       <View className='my'>
@@ -52,17 +63,17 @@ export default class My extends Component {
             <Image src={btnNext} className='infoGo'></Image>
           </View>
           <View className='headBottom'>
-            <View className='headList'>
+            <View className='headList' data-url='allGoods' onclick={this.navigateTo}>
               <Image src={icon_grzx_t1}></Image>
               <Text>余额</Text>
               <Text>1256.32</Text>
             </View>
-            <View className='headList'>
+            <View className='headList' data-url='allGoods' onclick={this.navigateTo}>
               <Image src={icon_grzx_t2}></Image>
               <Text>优惠券</Text>
               <Text>123</Text>
             </View>
-            <View className='headList'>
+            <View className='headList' data-url='allGoods' onclick={this.navigateTo}>
               <Image src={icon_grzx_t3}></Image>
               <Text>积分</Text>
               <Text>123.23</Text>
@@ -70,42 +81,42 @@ export default class My extends Component {
           </View>
         </View>
         <View className='listBox'>
-          <View className='list'>
+          <View className='list' data-url='myOrder' onclick={this.navigateTo}>
             <Image src={btn_list1} className='iconImg'></Image>
             <View className='lists'>
               <Text className='listName'>我的订单</Text>
               <Image src={btnNext} className='infoGo'></Image>
             </View>
           </View>
-          <View className='list'>
+          <View className='list' data-url='myRecharge' onclick={this.navigateTo}>
             <Image src={btn_list2} className='iconImg'></Image>
             <View className='lists'>
               <Text className='listName'>我的充值</Text>
               <Image src={btnNext} className='infoGo'></Image>
               </View>
           </View>
-          <View className='list'>
+          <View className='list' data-url='myCollect' onclick={this.navigateTo}>
             <Image src={btn_list3} className='iconImg'></Image>
             <View className='lists'>
               <Text className='listName'>我的收藏</Text>
               <Image src={btnNext} className='infoGo'></Image>
             </View>
           </View>
-          <View className='list'>
+          <View className='list' data-url='myPurchased' onclick={this.navigateTo}>
             <Image src={btn_list4} className='iconImg'></Image>
             <View className='lists'>
               <Text className='listName'>我的加购</Text>
               <Image src={btnNext} className='infoGo'></Image>
             </View>
           </View>
-          <View className='list'>
+          <View className='list' data-url='myInvite' onclick={this.navigateTo}>
             <Image src={btn_list5} className='iconImg'></Image>
             <View className='lists'>
               <Text className='listName'>我的邀请</Text>
               <Image src={btnNext} className='infoGo'></Image>
             </View>
           </View>
-          <View className='list'>
+          <View className='list' data-url='settingUp' onclick={this.navigateTo}>
             <Image src={btn_list6} className='iconImg'></Image>
             <View className='lists'>
               <Text className='listName'>设置</Text>

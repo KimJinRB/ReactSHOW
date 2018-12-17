@@ -1,6 +1,7 @@
 import Taro, { Component } from '@tarojs/taro'
 import { View, Text, Swiper, SwiperItem, Image, Input} from '@tarojs/components'
 import './index.css'
+import publicFun from '../../public/public'
 import banner from '../../resource/public/banner.png'
 import activate from '../../resource/index/activate.png'
 import goods from '../../resource/index/goods.png'
@@ -39,8 +40,17 @@ export default class Index extends Component {
   componentDidHide () { }
 
   bannerDetail = e => {
-    
- }
+    publicFun.navigateTo(e);
+  }
+  navigateTo = e => {
+    publicFun.navigateTo(e);
+  }
+  switchTab = e => {
+    publicFun.switchTab(e);
+  }
+  redirectTo = e => {
+    publicFun.redirectTo(e);
+  }
 
   render () {
     return (
@@ -61,17 +71,17 @@ export default class Index extends Component {
             duration='200'
             >
             <SwiperItem>
-              <View className='demo-text-1' data-id='1' onclick={this.bannerDetail}>
+              <View className='demo-text-1' data-url='newsDetail'  data-id='1' onclick={this.bannerDetail}>
                 <Image src={banner}></Image>
               </View>
             </SwiperItem>
             <SwiperItem >
-              <View className='demo-text-2' data-id='2' onclick={this.bannerDetail}>
+              <View className='demo-text-2' data-url='newsDetail' data-id='2' onclick={this.bannerDetail}>
                 <Image src={banner}></Image>
               </View>
             </SwiperItem>
             <SwiperItem >
-              <View className='demo-text-3' data-id='3' onclick={this.bannerDetail}>
+              <View className='demo-text-3' data-url='newsDetail' data-id='3' onclick={this.bannerDetail}>
                 <Image src={banner}></Image>
               </View>
             </SwiperItem>
@@ -79,19 +89,19 @@ export default class Index extends Component {
         </View>
         {/* 轮播结束 */}
         <View className='headTab'>
-          <View className='headTabL'>
+          <View className='headTabL' data-url='allGoods' onclick={this.navigateTo}>
             <Image src={goods}></Image>
             <Text>全部宝贝</Text>
           </View>
-          <View className='headTabL'>
+          <View className='headTabL' data-url='activate' onclick={this.navigateTo}>
             <Image src={activate}></Image>
             <Text>产品激活</Text>
           </View>
-          <View className='headTabL'>
+          <View className='headTabL' data-url='goodsList' onclick={this.navigateTo}>
             <Image src={invite}></Image>
             <Text>邀请好友</Text>
           </View>
-          <View className='headTabL'>
+          <View className='headTabL' data-url='goodsList' onclick={this.navigateTo}>
             <Image src={interal}></Image>
             <Text>积分活动</Text>
           </View>
@@ -133,12 +143,12 @@ export default class Index extends Component {
               {/* <Text className='goodsMore'>更多</Text> */}
             </View>
             <View className='goodsList'>
-              <View className='subList'>
+              <View className='subList' data-url='goodsDetail' onclick={this.navigateTo}>
                 <Image src={goods1} className='goodsBanner'></Image>
                 <View className='goodsName'>智能手表</View>
                 <View className='goodsPrice'>￥ 998</View>
               </View>
-              <View className='subList'>
+              <View className='subList' data-url='goodsDetail' onclick={this.navigateTo}>
                 <Image src={goods2} className='goodsBanner'></Image>
                 <View className='goodsName'>智能手表</View>
                 <View className='goodsPrice'>￥ 998</View>
@@ -150,15 +160,15 @@ export default class Index extends Component {
           <View className='newGoods'>
             <View className='goodsHead'>
               <Text className='goodsTitle'>新品上线</Text>
-              <Text className='goodsMore'>更多 >></Text>
+              <Text className='goodsMore' data-url='allGoods' onclick={this.navigateTo}>更多 >></Text>
             </View>
             <View className='goodsList'>
-              <View className='subList'>
+              <View className='subList' data-url='goodsDetail' onclick={this.navigateTo}>
                 <Image src={goods1} className='goodsBanner'></Image>
                 <View className='goodsName'>智能手表</View>
                 <View className='goodsPrice'>￥ 998</View>
               </View>
-              <View className='subList'>
+              <View className='subList' data-url='goodsDetail' onclick={this.navigateTo}>
                 <Image src={goods2} className='goodsBanner'></Image>
                 <View className='goodsName'>智能手表</View>
                 <View className='goodsPrice'>￥ 998</View>
